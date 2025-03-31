@@ -1,17 +1,27 @@
-# Home Sales SparkSQL Project
+# Home Sales Data Analysis
 
 ## Overview
-This SparkSQL project involves analyzing a home sales dataset to derive key metrics. The tasks include creating temporary views, partitioning data, caching tables, and running SparkSQL queries to obtain insights. The project showcases proficiency in SparkSQL, data manipulation, and optimization techniques.
+This project processes home sales data using PySpark. It includes calculating average home prices based on various criteria, caching data for performance, and analyzing query runtimes. Key findings include insights on home prices by bedroom count, square footage, view ratings, and more.
 
-## Project Tasks
-- Create a Spark DataFrame from the home sales dataset.
-- Build a temporary table for further analysis.
-- Perform queries to find average prices for specific home attributes and view ratings.
-- Cache and validate temporary tables for optimized performance.
-- Analyze runtime differences between cached and uncached queries.
-- Utilize partitioning and parquet data for more efficient storage.
-- Run queries on partitioned parquet data and compare run times.
-- Ensure proper uncaching of temporary tables.
+## How to Run
+1. Ensure you have PySpark and the necessary libraries installed.
+2. Download the `home_sales_revised.csv` file from the provided AWS S3 location.
+3. Run the script in a PySpark environment.
+```bash
+# To install PySpark if needed
+pip install pyspark
 
-## Conclusion
-This project demonstrates the effective use of SparkSQL for real-world data analysis tasks, showcasing the ability to optimize performance through caching and partitioning strategies.
+```
+4. Download home_sales_revised.csv from the provided AWS S3 bucket.
+5. Open the Jupyter Notebook (Home_Sales.ipynb) and run cells sequentially.
+
+## Key Insights
+- Average prices for 4-bedroom homes per year.
+- Price analysis for homes with specific features, such as 3-bed, 3-bath, and 2-floor homes.
+- Impact of "view" ratings on home prices for properties with prices ≥ $350,000.
+- Performance improvements using cached and partitioned data.
+
+References - edX for data 
+
+
+
