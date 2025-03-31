@@ -4,7 +4,7 @@
 This project processes home sales data using PySpark. It includes calculating average home prices based on various criteria, caching data for performance, and analyzing query runtimes. Key findings include insights on home prices by bedroom count, square footage, view ratings, and more.
 
 ## How to Run
-1. Ensure you have PySpark and the necessary libraries installed.
+1. Ensure PySpark and necessary libraries installed.
 2. Download the `home_sales_revised.csv` file from the provided AWS S3 location.
 3. Run the script in a PySpark environment.
 ```bash
