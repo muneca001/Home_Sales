@@ -21,7 +21,7 @@ pip install pyspark
 - Impact of "view" ratings on home prices for properties with prices ≥ $350,000.
 - Performance improvements using cached and partitioned data.
 
-##References
+## References
 edX for data 
 
 
